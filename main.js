@@ -24,73 +24,73 @@ let track_list = [
     name: "Lo Maan Liya",
     artist: "Arijit Singh",
     image: "",
-    path: "https://drive.google.com/file/d/1Pg6L51YNQqqmx0SKBBtTfgN1emyi3w5p/view?usp=sharing"
+    path: "https://pagalfree.com/musics/128-Lo%20Maan%20Liya%20-%20Raaz%20Reboot%20128%20Kbps.mp3"
   },
   {
     name: "Tum Kya Mile",
-    artist: "",
-    image: "Pritam,Arijit Singh,Shreya Ghoshal,Amitabh Bhattacharya",
-    path: "https://drive.google.com/file/d/1adJWcpgACGbkohU6UERq_3xaE3I6nnM-/view?usp=sharing"
+    artist: "Pritam,Arijit Singh,Shreya Ghoshal,Amitabh Bhattacharya",
+    image: "",
+    path: "https://pagalfree.com/musics/128-Tum%20Kya%20Mile%20Pritam%20s%20Version%20-%20Rocky%20Aur%20Rani%20Kii%20Prem%20Kahaani%20128%20Kbps.mp3"
   },
   {
     name: "Shayad",
     artist: "Pritam, Arijit Singh",
     image: "",
-    path: "https://drive.google.com/file/d/1E1lLBKTMiGsfghRcXIS6djr8TGrJpo-b/view?usp=sharing"
+    path: "https://pagalfree.com/musics/192-Shayad%20-%20Love%20Aaj%20Kal%20192%20Kbps.mp3"
   },
   {
     name: "Jhoome Jo Pathaan",
     artist: "Arijit Singh, Sukriti Kakar",
     image: "",
-    path: "https://drive.google.com/file/d/1Pg6L51YNQqqmx0SKBBtTfgN1emyi3w5p/view?usp=sharing"
+    path: "https://pagalfree.com/musics/128-Jhoome%20Jo%20Pathaan%20-%20Pathaan%20128%20Kbps.mp3"
   },
   {
     name: "Naina",
     artist: "Diljit Dosanjh",
     image: "",
-    path: "https://drive.google.com/file/d/1L0JUe-G-UfDnwGstf-Dsr9IMG1tlvUmC/view?usp=sharing"
+    path: "https://pagalfree.com/musics/128-Naina%20-%20Crew%20128%20Kbps.mp3"
   },
  {
     name: "Tere Pyar Mein",
     artist: "Arijit Singh, Nikhita Gandhi",
    image: "",
-   path: "https://drive.google.com/file/d/14DkiBrobakslgklfERBbBCpYUM3Lljck/view?usp=sharing"
+   path: "https://pagalfree.com/musics/128-Tere%20Pyaar%20Mein%20-%20Tu%20Jhoothi%20Main%20Makkar%20128%20Kbps.mp3"
   },
   {
     name: "Jamna Paar",
     artist: "Tony Kakkar, Neha Kakkar, Tony Jr",
     image: "",
-    path: "https://drive.google.com/file/d/1Lw02AdVDH6s63pK8Tp77W0fsjfLk1MwZ/view?usp=sharing"
+    path: "https://pagalfree.com/musics/128-Jamna%20Paar%20-%20Tony%20Kakkar%20128%20Kbps.mp3"
   },
   {
     name: "Aaj Ki Raat",
     artist: "Madhubanti Bagchi, Divya Kumar",
     image: "",
-    path: "https://drive.google.com/file/d/1xoMTLXpKjrHluy5BagicV_rd_mlHGPqY/view?usp=sharing"
+    path: "https://pagalfree.com/musics/128-Aaj%20Ki%20Raat%20-%20Stree%202%20128%20Kbps.mp3"
   },
   {
     name: "Husn Tera Tauba Tauba",
     artist: "Karan Aujla",
     image: "",
-    path: "https://drive.google.com/file/d/1p_bXzAdiOI72bsid6NnJm3WopnFWV7n2/view?usp=sharing"
+    path: "https://raag.fm/files/mp3/128/Punjabi-Singles/27331/Husn%20Tera%20Tauba%20Tauba%20-%20(Raag.Fm).mp3"
   },
   {
     name: "Kar Gayi Chull",
     artist: "Badshah, Amaal Mallik, Fazilpuria, Sukriti Kakar, Neha Kakkar",
     image: "",
-    path: "https://drive.google.com/file/d/1wI1Nc83FgczcT6xs5SjHyArPVDsrexRi/view?usp=sharing"
+    path: "https://pagalfree.com/musics/128-Kar%20Gayi%20Chull%20-%20Kapoor%20And%20Sons%20(Since%201921)%20128%20Kbps.mp3"
   },
   {
     name: "Badtameez Dil",
     artist: "Pritam, Benny Dayal, Shefali Alvares",
     image: "",
-    path: "https://drive.google.com/file/d/12-hen8p4fEe_OMLsVDAowv-uBZ0yAO7R/view?usp=sharing"
+    path: "https://pagalfree.com/musics/128-Badtameez%20Dil%20-%20Yeh%20Jawaani%20Hai%20Deewani%20128%20Kbps.mp3"
   },
   {
     name: "Subhanallah",
     artist: "Pritam, Sreerama Chandra, Shilpa Rao",
     image: "",
-    path: "https://drive.google.com/file/d/1PJg_W93Deyn5wzqqUXcLU_nrcMJ2VCqG/view?usp=sharing"
+    path: "https://pagalfree.com/musics/128-Subhanallah%20-%20Yeh%20Jawaani%20Hai%20Deewani%20128%20Kbps.mp3"
   }
 ];
 
