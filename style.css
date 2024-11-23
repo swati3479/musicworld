@@ -4,6 +4,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   transition: background-image 0.5s ease-in-out;
+  color: #333; /* Default text color for the body */
 }
 
 .player {
@@ -12,6 +13,7 @@ body {
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  color: #2c3e50; /* Text color for player */
 }
 
 .details {
@@ -20,6 +22,7 @@ body {
   flex-direction: column;
   justify-content: center;
   margin-top: 25px;
+  color: #34495e; /* Details text color */
 }
 
 .track-art {
@@ -28,18 +31,22 @@ body {
   width: 250px;
   background-size: cover;
   border-radius: 15%;
+  border: 5px solid #16a085; /* Add a border with a color */
 }
 
 .now-playing {
   font-size: 1rem;
+  color: #8e44ad; /* Now-playing text color */
 }
 
 .track-name {
   font-size: 3rem;
+  color: #c0392b; /* Song name color */
 }
 
 .track-artist {
   font-size: 1.5rem;
+  color: #2980b9; /* Artist name color */
 }
 
 .buttons {
@@ -51,11 +58,13 @@ body {
 .playpause-track, .prev-track, .next-track {
   padding: 25px;
   opacity: 0.8;
-  transition: opacity 0.2s;
+  color: #27ae60; /* Button icon color */
+  transition: opacity 0.2s, color 0.2s;
 }
 
 .playpause-track:hover, .prev-track:hover, .next-track:hover {
   opacity: 1.0;
+  color: #2ecc71; /* Button icon color on hover */
 }
 
 .slider_container {
@@ -71,33 +80,37 @@ body {
   -moz-appearance: none;
   appearance: none;
   height: 5px;
-  background: black;
+  background: #34495e; /* Slider background color */
   opacity: 0.7;
-  transition: opacity 0.2s;
+  transition: opacity 0.2s, background 0.2s;
+}
+
+.seek_slider:hover, .volume_slider:hover {
+  opacity: 1.0;
+  background: #2ecc71; /* Slider background color on hover */
 }
 
 .seek_slider::-webkit-slider-thumb, .volume_slider::-webkit-slider-thumb {
   width: 15px;
   height: 15px;
-  background: white;
+  background: #f1c40f; /* Thumb color */
   cursor: pointer;
   border-radius: 50%;
 }
 
-.seek_slider:hover, .volume_slider:hover {
-  opacity: 1.0;
-}
-
 .current-time, .total-duration {
   padding: 10px;
+  color: #8e44ad; /* Time and duration color */
 }
 
 i.fa-volume-down, i.fa-volume-up {
   padding: 10px;
+  color: #9b59b6; /* Volume icon color */
 }
 
 i.fa-play-circle, i.fa-pause-circle, i.fa-step-forward, i.fa-step-backward {
   cursor: pointer;
+  color: #3498db; /* Play/pause/next/previous button colors */
 }
 
 .exit {
@@ -110,7 +123,7 @@ i.fa-play-circle, i.fa-pause-circle, i.fa-step-forward, i.fa-step-backward {
   font-size: 18px;
   font-weight: bold;
   background: linear-gradient(135deg, #f39c12, #e67e22);
-  color: white;
+  color: white; /* Button text color */
   border: none;
   border-radius: 25px;
   cursor: pointer;
