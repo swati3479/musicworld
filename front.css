@@ -1,0 +1,120 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    background-color: #1e1e2f;
+    color: white;
+    padding: 15px 20px;
+}
+header .logo {
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+.welcome-section {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(255, 250, 250);
+    background: url('https://images.pexels.com/photos/3721941/pexels-photo-3721941.jpeg?auto=compress&cs=tinysrgb&w=600') no-repeat center center/cover;
+    /* Remove blur effect */
+    filter: none; /* Remove any blur filter */
+    background-size: cover;
+  }
+  
+  .welcome-section h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  }
+  
+  .welcome-section p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  }
+  
+  .play-button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+  }
+  
+  .play-button:hover {
+    background: linear-gradient(135deg, #feb47b, #ff7e5f);
+    transform: scale(1.1);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+
+/* Artist Photos Section */
+.artist-photos {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+}
+.artist-photos h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+.artist-photos p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+.artist-gallery {
+    display: flex; /* Use Flexbox to align items horizontally */
+    justify-content: center; /* Center items horizontally */
+    gap: 20px; /* Add spacing between items */
+    flex-wrap: wrap; /* Ensure items wrap to the next line if needed */
+}
+.artist {
+    text-align: center;
+    width: 150px;
+}
+.artist img {
+    width: 150px; /* Set a fixed width */
+    height: 150px; /* Set a fixed height */
+    object-fit: cover; /* Ensures the image scales proportionally and fits within the bounds */
+    border-radius: 50%; /* Makes the image round */
+    border: 3px solid #ddd; /* Adds a border around the image */
+    transition: transform 0.3s, border-color 0.3s; /* Smooth hover effect */
+}
+.artist img:hover {
+    transform: scale(1.1); /* Zoom effect on hover */
+    border-color: #f39c12; /* Change border color on hover */
+}
+
+.artist p {
+    margin-top: 10px;
+    font-size: 1em;
+    color: #333;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #1e1e2f;
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
+}
