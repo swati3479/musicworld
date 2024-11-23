@@ -97,7 +97,7 @@ let track_list = [
 // Array for background images (independent of music)
 let background_images = [
   "https://images.unsplash.com/photo-1626862868817-a774be2d1a88?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bXVzaWMlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww",
-  "https://images.pexels.com/photos/1643388/pexels-photo-1643388.jpeg",
+  "https://s21.aconvert.com/convert/p3r68-cdx67/r0rji-dew7f.mp3",
   "https://images.pexels.com/photos/3573382/pexels-photo-3573382.jpeg",
   "https://images.pexels.com/photos/1468379/pexels-photo-1468379.jpeg"
 ];
