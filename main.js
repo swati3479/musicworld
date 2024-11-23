@@ -12,7 +12,7 @@ let volume_slider = document.querySelector(".volume_slider");
 let curr_time = document.querySelector(".current-time");
 let total_duration = document.querySelector(".total-duration");
 
-let track_index = 0;
+let track_front = 0;
 let isPlaying = false;
 let updateTimer;
 
@@ -102,22 +102,22 @@ let background_images = [
   "https://images.pexels.com/photos/1468379/pexels-photo-1468379.jpeg"
 ];
 
-function loadTrack(track_index) {
+function loadTrack(track_front) {
   clearInterval(updateTimer);
   resetValues();
 
   // Load the current track
-  curr_track.src = track_list[track_index].path;
+  curr_track.src = track_list[track_front].path;
   curr_track.load();
 
   // Update UI
-  track_art.style.backgroundImage = "url(" + track_list[track_index].image + ")";
-  track_name.textContent = track_list[track_index].name;
-  track_artist.textContent = track_list[track_index].artist;
-  now_playing.textContent = "PLAYING " + (track_index + 1) + " OF " + track_list.length;
+  track_art.style.backgroundImage = "url(" + track_list[track_front].image + ")";
+  track_name.textContent = track_list[track_front].name;
+  track_artist.textContent = track_list[track_front].artist;
+  now_playing.textContent = "PLAYING " + (track_front + 1) + " OF " + track_list.length;
 
   // Update the background with an unrelated image
-  let bg_image = background_images[track_index % background_images.length];
+  let bg_image = background_images[track_front % background_images.length];
   document.body.style.backgroundImage = "url(" + bg_image + ")";
   document.body.style.backgroundSize = "cover";
   document.body.style.backgroundPosition = "center";
@@ -134,7 +134,7 @@ function resetValues() {
 }
 
 // Load the first track on page load
-loadTrack(track_index);
+loadTrack(track_front);
 
 function playpauseTrack() {
   if (!isPlaying) playTrack();
@@ -154,14 +154,14 @@ function pauseTrack() {
 }
 
 function nextTrack() {
-  track_index = (track_index + 1) % track_list.length;
-  loadTrack(track_index);
+  track_front = (track_front + 1) % track_list.length;
+  loadTrack(track_front);
   playTrack();
 }
 
 function prevTrack() {
-  track_index = (track_index - 1 + track_list.length) % track_list.length;
-  loadTrack(track_index);
+  track_front = (track_front - 1 + track_list.length) % track_list.length;
+  loadTrack(track_front);
   playTrack();
 }
 
