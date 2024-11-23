@@ -99,7 +99,9 @@ let background_images = [
   "https://i.pinimg.com/736x/2d/a9/c4/2da9c4f0d49127e870ba28f8db2c848c.jpg",
   "https://i.pinimg.com/736x/64/fc/f4/64fcf4cb00b65b7c014ba4b9735b3064.jpg",
   "https://images.pexels.com/photos/3573382/pexels-photo-3573382.jpeg",
-  "https://images.pexels.com/photos/1468379/pexels-photo-1468379.jpeg"
+  "https://i.pinimg.com/736x/f6/52/b4/f652b4aa020ed9565dda599b98932271.jpg",
+  "https://i.pinimg.com/736x/f1/31/28/f13128c1d73337f31346af965f7f1b0c.jpg",
+  "https://i.pinimg.com/736x/25/f6/02/25f6022c134d0152b382f3c121c4ca58.jpg",
 ];
 
 function loadTrack(track_front) {
