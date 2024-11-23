@@ -23,63 +23,69 @@ let track_list = [
   {
     name: "Lo Maan Liya",
     artist: "Arijit Singh",
+    image: "",
     path: "https://s17.aconvert.com/convert/p3r68-cdx67/qgsi0-nuz62.mp3"
   },
   {
     name: "Shayad",
     artist: "Pritam, Arijit Singh",
+    image: "",
     path: "https://s19.aconvert.com/convert/p3r68-cdx67/bxqru-xouzy.mp3"
   },
   {
     name: "Jhoome Jo Pathaan",
     artist: "Arijit Singh, Sukriti Kakar",
+    image: "",
     path: "https://s19.aconvert.com/convert/p3r68-cdx67/jfftn-ohkmz.mp3"
   },
   {
     name: "Naina",
     artist: "Diljit Dosanjh",
+    image: "",
     path: "https://s21.aconvert.com/convert/p3r68-cdx67/r0rji-dew7f.mp3"
   },
-    {
+ {
     name: "Tere Pyar Mein",
     artist: "Arijit Singh, Nikhita Gandhi",
+   image: "",
    path: "https://s31.aconvert.com/convert/p3r68-cdx67/05bzw-m5bei.mp3"
   },
-      {
+  {
     name: "Jamna Paar",
     artist: "Tony Kakkar, Neha Kakkar, Tony Jr",
+    image: "",
     path: "https://s19.aconvert.com/convert/p3r68-cdx67/kih1x-j8sbq.mp3"
   },
-        {
+  {
     name: "Aaj Ki Raat",
     artist: "Madhubanti Bagchi, Divya Kumar",
+    image: "",
     path: "https://s31.aconvert.com/convert/p3r68-cdx67/mqxcr-t3g64.mp3"
   },
-          {
+  {
     name: "Husan Tera Tauba Tauba",
     artist: "Karan Aujla",
+    image: "",
     path: "https://s3.aconvert.com/convert/p3r68-cdx67/w4j5j-3amnn.mp3"
   },
-            {
-    name: "Choli Ke Peeche",
-    artist: "Diljit Dosanjh, Alka Yagnik",
-    path: "https://s51.aconvert.com/convert/p3r68-cdx67/wnh1u-pf3ws.mp3"
-  },
-              {
+  {
     name: "Kar Gayi Chull",
     artist: "Badshah, Amaal Mallik, Fazilpuria, Sukriti Kakar, Neha Kakkar",
+    image: "",
     path: "https://s31.aconvert.com/convert/p3r68-cdx67/ugz9z-5yy6s.mp3"
   },
-                {
+  {
     name: "Badtameez Dil",
     artist: "Pritam, Benny Dayal, Shefali Alvares",
+    image: "",
     path: "https://s17.aconvert.com/convert/p3r68-cdx67/7njjb-7u8j9.mp3"
   },
-                  {
+  {
     name: "Subhanallah",
     artist: "Pritam, Sreerama Chandra, Shilpa Rao",
+    image: "",
     path: "https://s51.aconvert.com/convert/p3r68-cdx67/yoou7-bi2kj.mp3"
-  },
+  }
 ];
 
 // Array for background images (independent of music)
