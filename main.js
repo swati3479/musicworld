@@ -24,67 +24,73 @@ let track_list = [
     name: "Lo Maan Liya",
     artist: "Arijit Singh",
     image: "",
-    path: "https://s17.aconvert.com/convert/p3r68-cdx67/qgsi0-nuz62.mp3"
+    path: "https://drive.google.com/file/d/1Pg6L51YNQqqmx0SKBBtTfgN1emyi3w5p/view?usp=sharing"
+  },
+  {
+    name: "Tum Kya Mile",
+    artist: "",
+    image: "Pritam,Arijit Singh,Shreya Ghoshal,Amitabh Bhattacharya",
+    path: "https://drive.google.com/file/d/1adJWcpgACGbkohU6UERq_3xaE3I6nnM-/view?usp=sharing"
   },
   {
     name: "Shayad",
     artist: "Pritam, Arijit Singh",
     image: "",
-    path: "https://s19.aconvert.com/convert/p3r68-cdx67/bxqru-xouzy.mp3"
+    path: "https://drive.google.com/file/d/1E1lLBKTMiGsfghRcXIS6djr8TGrJpo-b/view?usp=sharing"
   },
   {
     name: "Jhoome Jo Pathaan",
     artist: "Arijit Singh, Sukriti Kakar",
     image: "",
-    path: "https://s19.aconvert.com/convert/p3r68-cdx67/jfftn-ohkmz.mp3"
+    path: "https://drive.google.com/file/d/1Pg6L51YNQqqmx0SKBBtTfgN1emyi3w5p/view?usp=sharing"
   },
   {
     name: "Naina",
     artist: "Diljit Dosanjh",
     image: "",
-    path: "https://s21.aconvert.com/convert/p3r68-cdx67/r0rji-dew7f.mp3"
+    path: "https://drive.google.com/file/d/1L0JUe-G-UfDnwGstf-Dsr9IMG1tlvUmC/view?usp=sharing"
   },
  {
     name: "Tere Pyar Mein",
     artist: "Arijit Singh, Nikhita Gandhi",
    image: "",
-   path: "https://s31.aconvert.com/convert/p3r68-cdx67/05bzw-m5bei.mp3"
+   path: "https://drive.google.com/file/d/14DkiBrobakslgklfERBbBCpYUM3Lljck/view?usp=sharing"
   },
   {
     name: "Jamna Paar",
     artist: "Tony Kakkar, Neha Kakkar, Tony Jr",
     image: "",
-    path: "https://s19.aconvert.com/convert/p3r68-cdx67/kih1x-j8sbq.mp3"
+    path: "https://drive.google.com/file/d/1Lw02AdVDH6s63pK8Tp77W0fsjfLk1MwZ/view?usp=sharing"
   },
   {
     name: "Aaj Ki Raat",
     artist: "Madhubanti Bagchi, Divya Kumar",
     image: "",
-    path: "https://s31.aconvert.com/convert/p3r68-cdx67/mqxcr-t3g64.mp3"
+    path: "https://drive.google.com/file/d/1xoMTLXpKjrHluy5BagicV_rd_mlHGPqY/view?usp=sharing"
   },
   {
-    name: "Husan Tera Tauba Tauba",
+    name: "Husn Tera Tauba Tauba",
     artist: "Karan Aujla",
     image: "",
-    path: "https://s3.aconvert.com/convert/p3r68-cdx67/w4j5j-3amnn.mp3"
+    path: "https://drive.google.com/file/d/1p_bXzAdiOI72bsid6NnJm3WopnFWV7n2/view?usp=sharing"
   },
   {
     name: "Kar Gayi Chull",
     artist: "Badshah, Amaal Mallik, Fazilpuria, Sukriti Kakar, Neha Kakkar",
     image: "",
-    path: "https://s31.aconvert.com/convert/p3r68-cdx67/ugz9z-5yy6s.mp3"
+    path: "https://drive.google.com/file/d/1wI1Nc83FgczcT6xs5SjHyArPVDsrexRi/view?usp=sharing"
   },
   {
     name: "Badtameez Dil",
     artist: "Pritam, Benny Dayal, Shefali Alvares",
     image: "",
-    path: "https://s17.aconvert.com/convert/p3r68-cdx67/7njjb-7u8j9.mp3"
+    path: "https://drive.google.com/file/d/12-hen8p4fEe_OMLsVDAowv-uBZ0yAO7R/view?usp=sharing"
   },
   {
     name: "Subhanallah",
     artist: "Pritam, Sreerama Chandra, Shilpa Rao",
     image: "",
-    path: "https://s51.aconvert.com/convert/p3r68-cdx67/yoou7-bi2kj.mp3"
+    path: "https://drive.google.com/file/d/1PJg_W93Deyn5wzqqUXcLU_nrcMJ2VCqG/view?usp=sharing"
   }
 ];
 
