@@ -13,7 +13,7 @@ body {
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  color: #2c3e50; /* Text color for player */
+  color: white; /* Text color for player */
 }
 
 .details {
@@ -22,7 +22,7 @@ body {
   flex-direction: column;
   justify-content: center;
   margin-top: 25px;
-  color: #34495e; /* Details text color */
+  color: white; /* Details text color */
 }
 
 .track-art {
@@ -31,7 +31,6 @@ body {
   width: 250px;
   background-size: cover;
   border-radius: 15%;
-  border: 5px solid #16a085; /* Add a border with a color */
 }
 
 .now-playing {
