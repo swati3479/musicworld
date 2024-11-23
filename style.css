@@ -36,17 +36,17 @@ body {
 
 .now-playing {
   font-size: 1rem;
-  color: #8e44ad; /* Now-playing text color */
+  color: white; /* Now-playing text color */
 }
 
 .track-name {
   font-size: 3rem;
-  color: #c0392b; /* Song name color */
+  color: white; /* Song name color */
 }
 
 .track-artist {
   font-size: 1.5rem;
-  color: #2980b9; /* Artist name color */
+  color: white; /* Artist name color */
 }
 
 .buttons {
@@ -58,13 +58,13 @@ body {
 .playpause-track, .prev-track, .next-track {
   padding: 25px;
   opacity: 0.8;
-  color: #27ae60; /* Button icon color */
+  color: white; /* Button icon color */
   transition: opacity 0.2s, color 0.2s;
 }
 
 .playpause-track:hover, .prev-track:hover, .next-track:hover {
   opacity: 1.0;
-  color: #2ecc71; /* Button icon color on hover */
+  color: white; /* Button icon color on hover */
 }
 
 .slider_container {
@@ -80,37 +80,37 @@ body {
   -moz-appearance: none;
   appearance: none;
   height: 5px;
-  background: #34495e; /* Slider background color */
+  background: white; /* Slider background color */
   opacity: 0.7;
   transition: opacity 0.2s, background 0.2s;
 }
 
 .seek_slider:hover, .volume_slider:hover {
   opacity: 1.0;
-  background: #2ecc71; /* Slider background color on hover */
+  background: white; /* Slider background color on hover */
 }
 
 .seek_slider::-webkit-slider-thumb, .volume_slider::-webkit-slider-thumb {
   width: 15px;
   height: 15px;
-  background: #f1c40f; /* Thumb color */
+  background: white; /* Thumb color */
   cursor: pointer;
   border-radius: 50%;
 }
 
 .current-time, .total-duration {
   padding: 10px;
-  color: #8e44ad; /* Time and duration color */
+  color: white; /* Time and duration color */
 }
 
 i.fa-volume-down, i.fa-volume-up {
   padding: 10px;
-  color: #9b59b6; /* Volume icon color */
+  color: white; /* Volume icon color */
 }
 
 i.fa-play-circle, i.fa-pause-circle, i.fa-step-forward, i.fa-step-backward {
   cursor: pointer;
-  color: #3498db; /* Play/pause/next/previous button colors */
+  color: white; /* Play/pause/next/previous button colors */
 }
 
 .exit {
